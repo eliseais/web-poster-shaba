@@ -8,7 +8,7 @@ h1
 {
     font-size: 62px;
     font-weight: 700;
-    line-height: 55px;
+
 
 
     text-align: center;
@@ -20,12 +20,13 @@ h1
 h2
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 55px;
+    text-align: center;
 padding-bottom: 30px;
     color: white;
-
+    margin-top: 10px;
+  }
 }a
 {
     color: #e56633;
@@ -52,6 +53,7 @@ main
 }
 .letters
 {
+
         /* flex-flow: column nowrap; */
     margin-top: 20vh;
     text-align: center;
@@ -92,6 +94,45 @@ padding-top: 30px;
     margin-right: 20px;
 
 }
+.button24{
+ color:#00c6ff;
+ padding: 10px 20px;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+ border: 1px solid #00C6FF;
+}
+.button24 {
+background-position: 0 0;
+color:#fff;
+}
+.button25{
+ color:#00c6ff;
+ padding: 10px 20px;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+ border: 1px solid #00C6FF;
+}
+.button25 {
+background-position: 0 0;
+color:#fff;
+}
+
 /*синяя кнопка внизу*/
 body {
               font-family: Arial, sans-serif;
@@ -223,41 +264,162 @@ body {
             }
 
             .icon-material_li {
-              background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0icG9zdC1saW5rZWRpbiI+CgkJPHBhdGggZD0iTTQ1OSwwSDUxQzIyLjk1LDAsMCwyMi45NSwwLDUxdjQwOGMwLDI4LjA1LDIyLjk1LDUxLDUxLDUxaDQwOGMyOC4wNSwwLDUxLTIyLjk1LDUxLTUxVjUxQzUxMCwyMi45NSw0ODcuMDUsMCw0NTksMHogICAgIE0xNTMsNDMzLjVINzYuNVYyMDRIMTUzVjQzMy41eiBNMTE0Ljc1LDE2MC42NWMtMjUuNSwwLTQ1LjktMjAuNC00NS45LTQ1LjlzMjAuNC00NS45LDQ1LjktNDUuOXM0NS45LDIwLjQsNDUuOSw0NS45ICAgIFMxNDAuMjUsMTYwLjY1LDExNC43NSwxNjAuNjV6IE00MzMuNSw0MzMuNUgzNTdWMjk4LjM1YzAtMjAuMzk5LTE3Ljg1LTM4LjI1LTM4LjI1LTM4LjI1cy0zOC4yNSwxNy44NTEtMzguMjUsMzguMjVWNDMzLjVIMjA0ICAgIFYyMDRoNzYuNXYzMC42YzEyLjc1LTIwLjQsNDAuOC0zNS43LDYzLjc1LTM1LjdjNDguNDUsMCw4OS4yNSw0MC44LDg5LjI1LDg5LjI1VjQzMy41eiIgZmlsbD0iIzc1NzU3NSIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=") center no-repeat;
+              background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0icG9zdC1saW5rZWRpbiI+CgkJPHBhdGggZD0iTTQ1OSwwSDUxQzIyLjk1LDAsMCwyMi45NSwwLDUxdjQwOGMwLDI4LjA1LDIyLjk1LDUxLDUxLDUxaDQwOGMyOC4wNSwwLDUxLTIyLjk1LDUxLTUxVjUxQzUxMCwyMi45NSw0ODcuMDUsMCw0NTksMHogICAgIE0xNTMsNDMzLjVINzYuNVYyMDRIMTUzVjQzMy41eiBNMTE0Ljc1LDE2MC42NWMtMjUuNSwwLTQ1LjktMjAuNC00NS45LTQ1LjlzMjAuNC00NS45LDQ1LjktNDUuOXM0NS45LDIwLjQsNDUuOSw0NS45ICAgIFMxNDAuMjUsMTYwLjY1LDExNC43NSwxNjAuNjV6IE00MzMuNSw0MzMuNUgzNTdWMjk4LjM1YzAtMjAuMzk5LTE3Ljg1LTM4LjI1LTM4LjI1LTM4LjI1cy0zOC4yNSwxNy44NTEtMzguMjUsMzguMjVWNDMzLjVIMjA0ICAgIFYyMDRoNzYuNXYzMC42YzEyLjc1LTIwLjQsNDAuOC0zNS43LDYzLjc1LTM1LjdjNDguNDUsMCw4OS4yNSw0MC44LDg5LjI1LDg5LjI1VjQzMy41eiIgZmlsbD0iIzc1NzU3NSIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=")
+              center no-repeat ;
             }
 /*синяя нижняя кнопка конец*/
-@media all and (max-width: 768px)
+@media (min-width: 768px)
 {
+  h1{
+    font-size: 100px;
+    font-weight: 700px;
+    margin-top: 350px;
+  }
+  h2{
+    font-size: 40px;
+  }
+
     .caesar
     {
         width: 80%;
     }
     .letters
     {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 200px 200px auto 200px 200px 200px auto 200px 200px auto;
+      grid-gap: 25px;
         grid: repeat(3, 1fr) / repeat(2, 1fr);
     }
-}
-@media all and (max-width: 320px)
-{
+    .lal
+    {
 
+    height: 350px;
+    padding-top: 30px;
+
+    }
+    .tra
+    {
+        z-index: 1;
+        top: -600px;
+        left: -120px;
+      position: relative;
+    }
+    .la
+    {
+        z-index: 2;
+        top: 40px;
+
+          position: relative;
+    }
+    .tral
+    {
+        z-index: 3;
+        top: -950px;
+        left: 350px;
+      position: relative;
+        width: 400px;
+        margin-right: 20px;
+    }
+    .grid-1
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 200px auto 200px 200px auto 200px auto;
+    }
+    .panel1,
+    .panel2,
+    .panel3,
+    .panel4,
+    .panel5,
+    .panel6,
+    {
+      grid-column: span 2;
+    }
+}
+@media (min-width: 320px)
+{
+.button24{
+  margin-top: 40px;
+  display: block;
+  }
+  .button25{
+    display: block;
+  }
+}
   .panel1,.panel2,.panel3,.panel4,.panel5,.panel6
       {
           width: 320px;
     }
     .letters
     {
-        grid: repeat(6, 1fr) / repeat(1, 1fr);
+        grid: repeat(2, 1fr) / repeat(2, 1fr);
     }
 }
-@media (max-width: 600px)
+@media (min-width: 1024px)
 {
-    .container
+  .lal,.description,.grid-1,.letters, {
+  display: flex;
+  flex-direction: column;
+}
+    h1{
+      margin-top: 600px;
+      font-size: 160px;
+    }
+    h2{
+      font-size: 50px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .letters
     {
-        /* Переделываем сетку в одноколоночный макет */
-        grid-template-columns: 1fr;
-        grid-template-areas: 'header'
-        'main'
-        'sidebar'
-        'footer';
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 200px 200px auto 200px 200px 200px auto 200px 200px auto;
+      grid-gap: 25px;
+        grid: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+    .lal
+    {
+
+    height: 350px;
+    padding-top: 30px;
+
+    }
+    .tra
+    {
+        z-index: 1;
+        top: -600px;
+        left: -120px;
+      position: relative;
+    }
+    .la
+    {
+        z-index: 2;
+        top: 40px;
+
+          position: relative;
+    }
+    .tral
+    {
+        z-index: 3;
+        top: -950px;
+        left: 350px;
+      position: relative;
+        width: 400px;
+        margin-right: 20px;
+    }
+    .grid-1
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 200px auto 200px 200px auto 200px auto;
+    }
+    .panel1,
+    .panel2,
+    .panel3,
+    .panel4,
+    .panel5,
+    .panel6,
+    {
+      grid-column: span 2;
     }
 }
